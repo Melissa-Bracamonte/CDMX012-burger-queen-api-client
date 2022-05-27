@@ -19,11 +19,6 @@ export const helpHttp = () => {
 
     setTimeout(() => controller.abort(), 3000);
 
-    // let fetchErr = {
-    //     err: true,
-    //     status: res.status || "00",
-    //     statusText: res.statusText || "Ocurrió un error"
-    // }
     return fetch(endpoint, options)
       .then((res) =>
         res.ok

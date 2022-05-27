@@ -88,6 +88,7 @@ const Products = () => {
   return (
     <>
       <Popup
+        // createProducts ={createProducts}
         onClickCloseModal={onClickHide}
         visible={objPopup.visibility}
         attrProduct={objPopup.popupProduct}
